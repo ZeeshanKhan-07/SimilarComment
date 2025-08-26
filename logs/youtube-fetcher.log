@@ -1,0 +1,19 @@
+2025-08-24 14:54:44 [main] INFO  c.y.S.SearchSimilarCommentApplication - Starting SearchSimilarCommentApplication using Java 22.0.2 with PID 2820 (C:\Users\zeeshan\OneDrive\Desktop\SearchSameComments\SimilarComment\backend\target\classes started by zeeshan in C:\Users\zeeshan\OneDrive\Desktop\SearchSameComments\SimilarComment)
+2025-08-24 14:54:44 [main] INFO  c.y.S.SearchSimilarCommentApplication - No active profile set, falling back to 1 default profile: "default"
+2025-08-24 14:54:48 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-08-24 14:54:48 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-08-24 14:54:48 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-08-24 14:54:48 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-08-24 14:54:48 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4265 ms
+2025-08-24 14:54:48 [main] INFO  c.y.S.config.YouTubeConfig - Initializing YouTube API client with application name: youtube-comments-fetcher
+2025-08-24 14:54:50 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-08-24 14:54:50 [main] INFO  c.y.S.SearchSimilarCommentApplication - Started SearchSimilarCommentApplication in 9.99 seconds (process running for 11.666)
+2025-08-24 14:55:34 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-24 14:55:34 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-08-24 14:55:34 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2025-08-24 14:55:35 [http-nio-8080-exec-2] INFO  c.y.S.controller.CommentController - Received request to fetch ALL comments for video: _fNeWkm8YTg
+2025-08-24 14:55:35 [http-nio-8080-exec-2] INFO  c.y.S.s.impl.CommentServiceImpl - Starting to fetch ALL comments for video ID: _fNeWkm8YTg
+2025-08-24 14:55:40 [http-nio-8080-exec-2] INFO  c.y.S.s.impl.CommentServiceImpl - Fetching page 1 for video: _fNeWkm8YTg
+2025-08-24 14:55:41 [http-nio-8080-exec-2] INFO  c.y.S.s.impl.CommentServiceImpl - Page 1 fetched 7 comments. Total so far: 7
+2025-08-24 14:55:41 [http-nio-8080-exec-2] INFO  c.y.S.s.impl.CommentServiceImpl - Successfully fetched ALL 7 comments from 1 pages for video: _fNeWkm8YTg
+2025-08-24 14:55:41 [http-nio-8080-exec-2] INFO  c.y.S.controller.CommentController - Returning ALL 7 comments for video: _fNeWkm8YTg
